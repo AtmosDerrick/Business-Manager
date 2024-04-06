@@ -1,9 +1,18 @@
+'use client'
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCircleDot } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 import Image from "next/image";
+import { useRouter } from 'next/navigation'
+
 
 function page() {
+    const router = useRouter()
+
+
+    const handleLogin = () =>{
+        router.push('/main/invoice')    }
   return (
     <div >
         <nav className="flex justify-between h-[vh] py-2 items-center px-8 bg-gray-100 border-b-2 border-gray-300 ">
@@ -33,7 +42,7 @@ function page() {
 
             <div className="mt-4"><label className="font-medium mt-4">Paasword</label><br></br>
             <input type="password" className="border-[2px] border-gray-400 mt-2 rounded-md w-full h-[40px] p-2 text-sm" /></div>
-            <button className="w-full bg-blue-900 mt-4 py-3 rounded-md text-white font-medium">Continue</button>
+            <button className="w-full bg-blue-900 mt-4 py-3 rounded-md text-white font-medium" onClick={handleLogin}>Sign In</button>
 
             <div className="mt-8 text-gray-600 text-center text-sm"><Link href=""><h4>Forgot your password</h4>
 </Link></div>

@@ -10,7 +10,7 @@ function page() {
     <div className='w-3/4 mx-auto mt-8 '>
         
 
-        <div className='bg-gray-100  w-full  h-[400px] rounded-md mt-2 p-4'>
+        <div className='bg-gray-100  w-full  rounded-md mt-2 p-4'>
 
             <div className=''>
                 <div className='flex justify-start gap-2'>
