@@ -12,7 +12,7 @@ function page() {
 
 
     const handleLogin = () =>{
-        router.push('/main/invoice')    }
+        router.push('/invoice')    }
   return (
     <div >
         <nav className="flex justify-between h-[vh] py-2 items-center px-8 bg-gray-100 border-b-2 border-gray-300 ">
