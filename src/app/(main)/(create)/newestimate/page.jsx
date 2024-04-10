@@ -70,7 +70,7 @@ const handleAddItem = () => {
 
           <div>
     <button className='border-2 border-gray-100 py-1 px-4 rounded-md font-medium text-white bg-blue-500 flex justify-start gap-3'><div className='w-2'>
-    <FontAwesomeIcon icon={faSave} className='text-white'/></div>Save Invoice</button></div></div>
+    <FontAwesomeIcon icon={faSave} className='text-white'/></div>Estimate Reciept</button></div></div>
         </div>
           <div className='flex justify-between gap-8 border-b-[2px] border-b-gray-500 pb-4'>
             <div className="w-full flex flex-col space-y-4">
@@ -252,7 +252,7 @@ const handleAddItem = () => {
           
           <button className='w-full text-center bg-blue-500 py-2 font-medium text-white rounded-md flex justify-center items-center gap-4'><div className='w-4'> 
           <FontAwesomeIcon icon={faSave} className='w-4'/>
-          </div>Save Invoice</button>
+          </div>Save Estimate</button>
         </div>
       
     </div>

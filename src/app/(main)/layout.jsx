@@ -29,7 +29,9 @@ export default function RootLayout({ children }) {
                     break; // Added break statement to exit switch block
                 case "newreciept":
                     setNewTab("New Reciept")
-
+                    break;
+                case "newestimate":
+                    setNewTab("New Estimate")
                     break;
                 default:
                     setNewTab("");
